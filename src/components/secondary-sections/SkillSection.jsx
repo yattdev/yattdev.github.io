@@ -42,6 +42,31 @@ const SkillSection = () => {
 
               <div className="item">
                 <h3 className="level-title">
+                  Php, Laravel &amp; Livewire
+                  <span
+                    className="level-label"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    title="seasoned full stack Php developer, with Php, Laravel framework and Livewire"
+                  >
+                    <i className="fas fa-info-circle"></i>Expert
+                  </span>
+                </h3>
+
+                <div className="level-bar progress">
+                  <div
+                    className="progress-bar level-bar-inner"
+                    role="progressbar"
+                    style={{ width: "96%" }}
+                    aria-valuenow="96"
+                    aria-valuemin="0"
+                    aria-valuemax="96"
+                  ></div>
+                </div>
+              </div>
+
+              <div className="item">
+                <h3 className="level-title">
                   Reactjs &amp; Vuejs
                   <span
                     className="level-label"
