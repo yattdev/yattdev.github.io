@@ -28,6 +28,7 @@ const PortofolioHeader = () => {
                 alt="profile"
               />
               <div className="profile-content">
+                <h3 className="fst-italic">Portfolio outdate (2021), updating...</h3>
                 <h1 className="name">Yattara Alassane</h1>
                 <h2 className="desc">
                   Software Engineer | FullStack Developer | Starter
@@ -41,7 +42,7 @@ const PortofolioHeader = () => {
 
                 <ul className="social list-inline">
                   <li className="list-inline-item">
-                    <a href="https://www.linkedin.com/in/alassane-yattara-587477166/">
+                    <a href="https://www.linkedin.com/in/yattara">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
                   </li>
@@ -93,7 +94,7 @@ const PortofolioHeader = () => {
               </div>
               <a
                 className="btn btn-cta-primary"
-                href="mailto:alassane@yatt.tech"
+                href="mailto:yattdeveloper@gmail.com"
                 target="blank"
               >
                 <i className="fas fa-paper-plane"></i> Contact Me
