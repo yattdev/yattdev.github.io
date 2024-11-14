@@ -15,8 +15,7 @@ const InfoContactSection = () => {
               <li>
                 <i className="fas fa-envelope"></i>
                 <span className="sr-only">Email:</span>
-                <a href="mailto:yattdeveloper@gmail.com">yattdeveloper@gmail.com or </a>
-                <a href="mailto:yatt@alassane.online">yatt@alassane.online</a>
+                <a href="mailto:yattdeveloper@gmail.com">yattdeveloper@gmail.com</a>
               </li>
               <li>
                 <i className="fab fa-linkedin-in"></i>
