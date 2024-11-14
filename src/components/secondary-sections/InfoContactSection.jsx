@@ -10,18 +10,26 @@ const InfoContactSection = () => {
             <ul className="list-unstyled">
               <li>
                 <i className="fas fa-map-marker-alt"></i>
-                <span className="sr-only">Location:</span>Casablanca, Morroco
+                <span className="sr-only">Location:</span>Bamako, Mali
               </li>
               <li>
                 <i className="fas fa-envelope"></i>
                 <span className="sr-only">Email:</span>
-                <a href="https://github.com/yattdev">alassane@yatt.tech</a>
+                <a href="mailto:yattdeveloper@gmail.com">yattdeveloper@gmail.com or </a>
+                <a href="mailto:yatt@alassane.online">yatt@alassane.online</a>
+              </li>
+              <li>
+                <i className="fab fa-linkedin-in"></i>
+                <span className="sr-only">Linkedin:</span>
+                <a href="https://linkedin.com/in/yattara">
+                  Linkedin
+                </a>
               </li>
               <li>
                 <i className="fas fa-link"></i>
-                <span className="sr-only">Website:</span>
-                <a href="https://github.com/yattdev">
-                  https://alassane.yatt.tech
+                <span className="sr-only">Freelancer:</span>
+                <a href="https://www.freelancer.ma/profil/14451-consultant-developpeur-full-stack-web-mobile-et-ia">
+                 Freelancer
                 </a>
               </li>
             </ul>
