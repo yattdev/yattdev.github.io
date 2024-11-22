@@ -28,13 +28,13 @@ const PortofolioHeader = () => {
                 alt="profile"
               />
               <div className="profile-content">
-                <h3 className="fst-italic">Portfolio outdate (2021), updating...</h3>
+                <h3 className="fst-italic">Portfolio outdate (2021), updating...40%</h3>
                 <h1 className="name">Yattara Alassane</h1>
                 <h2 className="desc">
                   Software Engineer | FullStack Developer | Starter
                 </h2>
                 <h3 className="desc fw-bolder fst-italic">
-                  MSc Computer Science '21, &nbsp;
+                  MSc Computer Science, &nbsp;
                   <a href="https://fr.wikipedia.org/wiki/Casablanca">
                     Casablanca
                   </a>
