@@ -10,10 +10,10 @@ const PrimarySection = () => {
       <div className="primary col-lg-8 col-12">
         {/*about section*/}
         <AboutSection />
-        {/*projects sections */}
-        <ProjectSection />
         {/* experience sections */}
         <ExperienceSection />
+        {/*projects sections */}
+        <ProjectSection />
         {/*other projects sections*/}
         <OtherProjectSection />
         {/* github sections */}
