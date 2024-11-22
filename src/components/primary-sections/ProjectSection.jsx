@@ -17,7 +17,7 @@ const ProjectSection = () => {
           <div className="content">
             <div className="item featured text-center">
               <div className="featured-image has-ribbon">
-                <a href="https://mail-checker.yatt.tech" target="blank">
+                <a href="#" target="blank">
                   <img
                     className="img-fluid project-image rounded shadow-sm"
                     src={LastProjectImage}
@@ -30,35 +30,45 @@ const ProjectSection = () => {
               </div>
 
               <h3 className="title mb-3">
-                <a href="https://mail-checker.yatt.tech" target="blank">
-                  Email Checker
+                <a href="#" target="blank">
+                  Ahlan Morocco
                 </a>
               </h3>
 
               <div className="desc text-start">
-                <center>
-                  Email Checker is a simple little tool for verifying an email
-                  address. It's free and quite easy to use. Just enter the email
-                  address and hit the check button. It tells you whether the
-                  email id is real or fake. Sometimes, it’s unable to correctly
-                  predict and say unknown because some email providers have put
-                  some limits and restrictions or they simply don’t like any
-                  verification checks on their mailboxes.
-                  <br />
-                  <strong>Made with</strong>: VueJS(JavaScript/TypeScript),
-                  HTML5, CSS3, Github Actions, Netify, CI/CD, Cypress.io,
-                  Jest.io and more.
-                </center>
+                Ahlan Morocco is a modern web platform that connects
+                tourists and vacationers visiting Morocco with a wide range
+                of services, including accommodations, cultural activities,
+                adventures in nature, well-being and spa experiences,
+                gastronomy, and Moroccan cooking classes.
+                More than just a hotel booking site, Ahlan Morocco caters
+                to travelers seeking authentic and memorable experiences.
+                Our community offers diverse options such as:
+                <ul>
+                    <li>Traditional Riads</li>
+                    <li>Luxury Hotels</li>
+                    <li>Guided Tours</li>
+                    <li>4x4 Desert Excursions</li>
+                    <li>Desert Camping</li>
+                    <li>Atlas Mountain Hiking</li>
+                    <li>Yoga Sessions</li>
+                    <li>Gourmet Dining Experiences, and more.</li>
+                </ul>
+                Discover dream destinations and unique activities across Morocco. With just a few clicks, you can securely book your next accommodation, adventure, or cooking class through Ahlan Morocco.
+                <br />
+                <br />
+                <strong>Main Stack</strong> Python, Django, Docker/Compose, and more.
               </div>
               <a
                 className="btn btn-cta-secondary"
-                href="https://mail-checker.yatt.tech"
+                href="#"
                 target="blank"
               >
                 <i className="fas fa-thumbs-up"></i> Back my project
               </a>
             </div>
             <hr className="divider" />
+            <h2 className="heading">Work Experience</h2>
             <div className="item row">
               <a
                 className="col-md-4 col-12"
@@ -159,10 +169,17 @@ const ProjectSection = () => {
               </a>
               <div className="desc col-md-8 col-12">
                 <h3 className="title">
-                  <a href="http://pochette.yatt.tech" target="blank">
-                    ShonenDB - A Database where people share thier best shonens
-                  </a>
+                    <a href="https://github.com/yattdev">
+                      Machine Learning Developer &amp; AI Developer -
+                    </a>
                 </h3>
+                <span className="place">
+                  <a href="https://github.com/yattdev">PFE Project</a>
+                </span>
+                <br />
+                <span className="year">2020 - 2021</span> / Casablanca, Maroc
+                <br />
+                <br />
                 <p className="mb-2">
                   ShonenDB is an application, open source and community for the
                   management of the best shonens. The goal is to network with
