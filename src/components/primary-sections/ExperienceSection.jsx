@@ -15,7 +15,7 @@ const Experience = () => {
             <div className="item row">
               <a
                 className="col-md-4 col-12"
-                href="http://pochette.yatt.tech"
+                href="https://savoirfairelinux.com"
                 target="blank"
               >
                 <img
@@ -72,7 +72,7 @@ const Experience = () => {
             <div className="item row">
               <a
                 className="col-md-4 col-12"
-                href="http://pochette.yatt.tech"
+                href="https://www.charika.ma/societe-oyster-technology-472313"
                 target="blank"
               >
                 <img
@@ -129,7 +129,7 @@ const Experience = () => {
             <div className="item row">
               <a
                 className="col-md-4 col-12"
-                href="http://pochette.yatt.tech"
+                href="https://smartech.ma/"
                 target="blank"
               >
                 <img
@@ -183,7 +183,7 @@ const Experience = () => {
             <div className="item row">
               <a
                 className="col-md-4 col-12"
-                href="http://pochette.yatt.tech"
+                href="https://www.koolskools.com/"
                 target="blank"
               >
                 <img
