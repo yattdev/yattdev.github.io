@@ -5,7 +5,7 @@ const OtherProjectSection = () => {
     <>
       <section className="projects section">
         <div className="section-inner shadow-sm rounded">
-          <h2 className="heading">Other Open Source Projects</h2>
+          <h2 className="heading">Other Personal and Open Source Projects</h2>
           <div className="content">
             <div className="item">
               <h3 className="title">
