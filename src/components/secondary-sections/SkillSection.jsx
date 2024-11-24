@@ -9,8 +9,8 @@ const SkillSection = () => {
           <h2 className="heading">Skills &amp; Tools</h2>
           <div className="content">
             <p className="intro">
-              Modern go-getter, seasoned developer, in his adventure, Alassane
-              has developed full stack skills in development, AI and management
+              I'm a driven professional and experienced developer with full-stack
+              expertise in development, AI, and DevOps.
               skills.
             </p>
 
@@ -23,31 +23,6 @@ const SkillSection = () => {
                     data-bs-toggle="tooltip"
                     data-bs-placement="left"
                     title="seasoned full stack python developer, with django, django-rest-framework"
-                  >
-                    <i className="fas fa-info-circle"></i>Expert
-                  </span>
-                </h3>
-
-                <div className="level-bar progress">
-                  <div
-                    className="progress-bar level-bar-inner"
-                    role="progressbar"
-                    style={{ width: "96%" }}
-                    aria-valuenow="96"
-                    aria-valuemin="0"
-                    aria-valuemax="96"
-                  ></div>
-                </div>
-              </div>
-
-              <div className="item">
-                <h3 className="level-title">
-                  Php, Laravel &amp; Livewire
-                  <span
-                    className="level-label"
-                    data-bs-toggle="tooltip"
-                    data-bs-placement="left"
-                    title="seasoned full stack Php developer, with Php, Laravel framework and Livewire"
                   >
                     <i className="fas fa-info-circle"></i>Expert
                   </span>
@@ -81,8 +56,8 @@ const SkillSection = () => {
                   <div
                     className="progress-bar level-bar-inner"
                     role="progressbar"
-                    style={{ width: "90%" }}
-                    aria-valuenow="90"
+                    style={{ width: "80%" }}
+                    aria-valuenow="80"
                     aria-valuemin="0"
                     aria-valuemax="94"
                   ></div>
@@ -91,22 +66,46 @@ const SkillSection = () => {
 
               <div className="item">
                 <h3 className="level-title">
-                  HTML5, CSS3, SASS &amp; LESS
+                  Php/Laravel &amp; Livewire
                   <span
                     className="level-label"
                     data-bs-toggle="tooltip"
                     data-bs-placement="left"
-                    title="You can use the tooltip to explain more about your skill level..."
+                    title="Php/Laravel &amp; Livewire"
                   >
-                    <i className="fas fa-info-circle"></i>Expert
+                    <i className="fas fa-info-circle"></i>Pro
                   </span>
                 </h3>
                 <div className="level-bar progress">
                   <div
                     className="progress-bar level-bar-inner"
                     role="progressbar"
-                    style={{ width: "93%" }}
-                    aria-valuenow="93"
+                    style={{ width: "80%" }}
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="94"
+                  ></div>
+                </div>
+              </div>
+
+              <div className="item">
+                <h3 className="level-title">
+                  OPENAI API, AI Generative
+                  <span
+                    className="level-label"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    title="OPENAI API, AI Generative"
+                  >
+                    <i className="fas fa-info-circle"></i>Pro
+                  </span>
+                </h3>
+                <div className="level-bar progress">
+                  <div
+                    className="progress-bar level-bar-inner"
+                    role="progressbar"
+                    style={{ width: "70%" }}
+                    aria-valuenow="70"
                     aria-valuemin="0"
                     aria-valuemax="96"
                   ></div>
@@ -115,12 +114,12 @@ const SkillSection = () => {
 
               <div className="item">
                 <h3 className="level-title">
-                  DevOps tools
+                  Docker/Compose, Ansible, kubernetes, ...
                   <span
                     className="level-label"
                     data-bs-toggle="tooltip"
                     data-placement="left"
-                    title="You can use the tooltip to explain more about your skill level..."
+                    title="Docker/Compose, Ansible, kubernetes, ..."
                   >
                     <i className="fas fa-info-circle"></i>Pro
                   </span>
@@ -141,7 +140,8 @@ const SkillSection = () => {
           <hr />
           <blockquote>
             <q>
-              My super power is my ability to learn and experience new things
+              Adaptability and versatility are my superpowers, enabling
+              me to learn and embrace new experiences with ease.
             </q>
           </blockquote>
           <div className="content">
@@ -162,12 +162,6 @@ const SkillSection = () => {
                   Framework.
                 </span>
                 <br />
-                <strong>Java: &nbsp;&nbsp;</strong>
-                <span>SpringBoot</span>
-                <br />
-                <strong>Javascript/Typescript: &nbsp;&nbsp;</strong>
-                <span>NodeJs</span>
-                <br />
                 <strong>Testing: &nbsp;&nbsp;</strong> Unit-tests, JMeter,
                 Katalon, Selenuim, Cypress.io, Jest.io
               </p>
@@ -176,7 +170,7 @@ const SkillSection = () => {
                 <strong style={{ fontSize: "1.1em" }}>
                   API Specification: &nbsp;&nbsp;
                 </strong>
-                <span>REST</span>
+                <span>REST, NoSQL</span>
               </p>
               {/* Frontend web tools */}
               <p style={{ textIndent: "-0.6em" }}>
@@ -193,9 +187,26 @@ const SkillSection = () => {
                 <span>ReactJS, NextJS(React), VueJS, NuxtJS(VueJS)</span>
                 <br />
                 <strong>CMS: </strong>
-                <span>Django CMS, WordPress, Prestashop</span>
+                <span>Django CMS, WordPress, Grav CMS, Ghosh</span>
                 <br />
                 <strong>Testing: &nbsp;&nbsp;</strong> Selenium, Katalon, JMeter
+              </p>
+              {/* DevOps tools */}
+              <p style={{ textIndent: "-0.6em" }}>
+                <strong style={{ fontSize: "1.1em" }}>
+                  DevOps: &nbsp;&nbsp;
+                  <MDBIcon fab icon="aws" />
+                  <MDBIcon fab icon="jenkins" />
+                  <MDBIcon fab icon="git-alt" />
+                  <MDBIcon fab icon="github" />
+                  <MDBIcon fab icon="gitlab" />
+                  <MDBIcon fab icon="docker" />
+                </strong>
+                <br />
+                <span>
+                  Docker/Compose, Ansible, kubernetes, Git, Github Actions, Gitlab pipeline, CircleCI,
+                  AWS(EC2, S3, RDS, ECR, ...), Jenkins.
+                </span>
               </p>
               {/* Mobile tools */}
               <p style={{ textIndent: "-0.6em" }}>
@@ -206,7 +217,7 @@ const SkillSection = () => {
                   <MDBIcon fab icon="vuejs" />
                 </strong>
                 <br />
-                <span>React Native, NextJS(React), NuxtJS(Vuejs)</span>
+                <span>React Native, NuxtJS(Vuejs)</span>
                 <br />
                 <strong>Testing: &nbsp;&nbsp;</strong> Cypress.io, Jest.io
               </p>
@@ -251,27 +262,10 @@ const SkillSection = () => {
                 </strong>
                 <br />
                 <strong>Machine Learning: &nbsp;&nbsp; </strong>
-                <span>NLP Chatbot with Rasa open source</span>
+                <span>oOPENAI API, IA Generative</span>
                 <br />
                 <strong>Robotics: &nbsp;&nbsp; </strong>
                 <span>ROS, Raspberry, Arduino</span>
-              </p>
-              {/* DevOps tools */}
-              <p style={{ textIndent: "-0.6em" }}>
-                <strong style={{ fontSize: "1.1em" }}>
-                  DevOps: &nbsp;&nbsp;
-                  <MDBIcon fab icon="aws" />
-                  <MDBIcon fab icon="jenkins" />
-                  <MDBIcon fab icon="git-alt" />
-                  <MDBIcon fab icon="github" />
-                  <MDBIcon fab icon="gitlab" />
-                  <MDBIcon fab icon="docker" />
-                </strong>
-                <br />
-                <span>
-                  Git, GitGuardian, Github Actions, Docker/Compose, CircleCI,
-                  AWS(EC2, S3, RDS, ECR), Heroku, Jenkins.
-                </span>
               </p>
               {/* IDE tools */}
               <p style={{ textIndent: "-0.6em" }}>
@@ -280,7 +274,7 @@ const SkillSection = () => {
                   IDE: &nbsp;&nbsp;
                 </strong>
                 <br />
-                <span>Vim/SpaceVim, VSCode, SpringTools</span>
+                <span>Vim/SpaceVim, VSCode</span>
               </p>
               {/* Operating Systems tools */}
               <p style={{ textIndent: "-0.6em" }}>
